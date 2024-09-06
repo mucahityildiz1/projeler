@@ -1,0 +1,48 @@
+@import url(reset.css);
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e6f0ff;
+  width: 924px;
+  height: 378px;
+}
+.header {
+  padding-top: 68px;
+  padding-left: 65px;
+  & h6 {
+    width: 144px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    padding-bottom: 4px;
+  }
+  & h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    padding-bottom: 24px;
+    padding-right: 413px;
+  }
+}
+img {
+  float: right;
+  margin-right: 76px;
+}
+.btn {
+  width: 214px;
+  height: 64px;
+  border-radius: 32px;
+  background-color: #0d6efd;
+  background-repeat: no-repeat;
+  & p {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+  }
+}

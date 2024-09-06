@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url(reset.css);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 254px;
+  margin-top: 80px;
+}
+
+.header__text {
+  width: 824px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+  text-align: left;
+}
+.header__author {
+  display: flex;
+  margin-top: 28px;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 40px;
+
+  img {
+    width: 28px;
+    border-radius: 50%;
+  }
+  p {
+    justify-content: center;
+    align-items: center;
+    color: #52647c;
+    display: flex;
+    padding-left: 12px;
+    
+  }
+}
+
+
+.faster__text {
+  margin-top: 24px;
+
+  margin-bottom: 24px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.grater {
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  & h6 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 16px;
+  }
+  & p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+  }
+}
+.grater p:last-child {
+  padding-top: 32px;
+  padding-bottom: 80px;
+}
+.image2 {
+  float: left;
+}
+
+.know {
+  background-color: rgba(236, 241, 248, 1);
+
+  border-radius: 12px;
+  margin-bottom: 80px;
+  width: 1110px;
+  
+
+  & h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: center;
+    padding-top: 96px;
+    padding-left: 126px;
+    padding-right: 124px;
+    padding-bottom: 16px;
+  }
+  & h6 {
+    padding-top: 16px;
+    padding-bottom: 94px;
+    padding-left: 472px;
+    padding-right: 497px;
+  }
+}
+
+.watch__text {
+  
+  & h6 {
+    
+    font-weight: 700;
+    line-height: 30px;
+  }
+  & p {
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}
+.img_watch {
+  float: right;
+  display: flex;
+  border-radius: 25px;
+}
+
+.video {
+  & h4 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.3499999940395355px;
+    text-align: left;
+    padding-bottom: 32px;
+    padding-top: 48px;
+  }
+}
+.series {
+  border-radius: 20px;
+}

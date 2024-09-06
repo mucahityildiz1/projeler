@@ -1,0 +1,69 @@
+@import url(reset.css);
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: red;
+}
+.biggy-burger {
+  position: relative;
+}
+.biggy-burger__info {
+  margin-left: 165px;
+  padding-top: 223px;
+  
+}
+.info-head {
+  margin-bottom: 32px;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 127px;
+  letter-spacing: -1.5750000476837158px;
+  text-align: left;
+  color: #fff;
+  width: 517px;
+  height: 254px;
+}
+
+.burger-img {
+  position: absolute;
+  right: -250px;
+  top: 133px;
+  z-index: -1;
+}
+.biggy-info__text {
+  width: 517px;
+  height: 101px;
+  margin-bottom: 32px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+  color: #fff;
+}
+
+.biggy-info__btn {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 294px;
+  height: 98px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  p {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+  }
+}
+.biggy-info__minute {
+  display: flex;
+  padding-top: 35px;
+  gap: 12px;
+}
+.image-1 {
+  align-items: center;
+  color: #fff;
+}

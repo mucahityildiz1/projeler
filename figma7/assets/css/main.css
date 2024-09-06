@@ -1,0 +1,42 @@
+@import url(reset.css);
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #121212;
+}
+.head {
+  width: 1110px;
+  height: 349px;
+  margin-left: 86px;
+  margin-top: 86px;
+}
+
+.dowloand {
+    margin-left: 96px;
+    
+  & h3 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+    padding-right: 588px;
+
+    color: #ffffff;
+  }
+  & img {
+    float: right;
+    width: 368px;
+    height: 313px;
+  }
+}
+.btn {
+  width: 260px;
+  height: 64px;
+  background-color: #dc3545;
+  & p {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+  }
+}
